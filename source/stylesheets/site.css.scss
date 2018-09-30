@@ -1,0 +1,86 @@
+div.highlight {
+  border: 1px solid #aaa;
+  border-radius: 4px;
+  padding: 8px;
+  background: #eee;
+  margin-bottom: 8px;
+}
+
+.app {
+  display: grid;
+  grid-template-columns: 50% 50%;
+  grid-gap: 4px;
+  padding: 4px;
+  height: 90vh;
+  width: 100%;
+}
+
+.editor textarea {
+  width: 100%;
+  height: 100%;
+  font-family: "Courier New", monospace;
+  font-size: 16px;
+  overflow: scroll;
+}
+
+.preview {
+  padding: 0 1em;
+  overflow: scroll;
+}
+
+// SONGPRO STYLES
+
+// h1.title {
+  // text-align: center;
+// }
+
+// h2.artist {
+  // text-align: center;
+// }
+
+ .section {
+   display: flex;
+   flex-direction: row;
+   margin-bottom: 1.5em;
+ }
+
+ .section .name {
+   width: 12%;
+   font-family: "Times New Roman", serif;
+   font-weight: bold;
+   font-size: 1.2rem;
+   font-style: italic;
+ }
+
+ .line {
+   display: flex;
+   flex-wrap: wrap;
+   align-items: flex-end;
+ }
+
+ .tablature {
+   font-family: monospace;
+   font-size: 1.3rem;
+   line-height: 1.0rem;
+   overflow: visible;
+   white-space: nowrap;
+ }
+
+ .chord, .lyric {
+   text-wrap: avoid;
+   margin-right: 0.4em;
+ }
+
+ .chord {
+   min-height: 1.4em;
+   font-weight: bold;
+   font-size: 1.1rem;
+   margin-bottom: -0.2em;
+ }
+
+ .lyric {
+   min-height: 1.5em;
+   font-family: "Times New Roman", serif;
+   font-size: 1.4rem;
+ }
+
