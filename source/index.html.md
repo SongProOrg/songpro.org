@@ -29,7 +29,7 @@ You're [G]safe with me, un-[A]til you leave
 
 When converted into HTML it looks like this:
 
-![](images/preview.png)
+<img src="/images/preview.png" class="img-fluid" />
 
 ## The Format
 
