@@ -4,7 +4,7 @@ title: SongPro.org
 
 # About
 
-SongPro is a text file format for making chord & lyric lead sheets for songs. It is inspired by ChordPro and Markdown.
+<p class="lead">SongPro is a text file format for making chord & lyric lead sheets for songs.</p>
 
 ## An Example
 
@@ -33,9 +33,9 @@ When converted into HTML it looks like this:
 
 ## The Format
 
-### Song Attributes
+### Attributes
 
-Song attributes are added with the format:
+Attributes are added with the format:
 
 ```
 @attribute=value
@@ -51,6 +51,8 @@ Song attributes are added with the format:
 - year
 - album
 - tuning
+
+The values are text that show up in the rendered output.
 
 ### Sections
 
