@@ -2,11 +2,9 @@
 title: SongPro.org
 ---
 
-# About
-
 <p class="lead">SongPro is a text file format for making chord & lyric lead sheets for songs.</p>
 
-## An Example
+## Example
 
 Here's a partial example of a song in the SongPro format:
 
@@ -29,9 +27,11 @@ You're [G]safe with me, un-[A]til you leave
 
 When converted into HTML it looks like this:
 
-<img src="/images/preview.png" class="img-fluid" />
+<img src="/images/preview.png" class="img-fluid img-thumbnail" />
 
-## The Format
+## SongPro Format
+
+A SongPro file can contain Attributes, Sections, Chords, Lyrics and Tablature.
 
 ### Attributes
 
@@ -41,7 +41,7 @@ Attributes are added with the format:
 @attribute=value
 ```
 
- You can specify the following song attributes:
+You can specify the following song attributes:
 
 - title
 - artist
@@ -52,11 +52,12 @@ Attributes are added with the format:
 - album
 - tuning
 
-The values are text that show up in the rendered output.
+They can be placed anywhere in the song but it's recommended to put them at the top of your file.
+ The values are text that are displayed in the rendered output.
 
 ### Sections
 
-Song sections are declared with the format:
+Any line starting with `#` is considered the beginning of a new section:
 
 ```
 # Section Name
@@ -69,11 +70,11 @@ Section names are usually things like:
 - Bridge
 - Outro
 
-You can name them however you please.
+But you can name them however you please.
 
 ### Lyrics & Chords
 
-Chords are anything contains inside of brackets, such as `C#m7` and lyrics are words by themselves or around chords.
+Chords are anything contained inside of brackets, such as `C#m7`. Lyrics are words by themselves or around chords.
 
 ```
 You'll be [Asus4]safe in [A7]here
@@ -90,4 +91,4 @@ Any line starting with `|` is considered to be tablature. For example:
 ## Tools
 
 - [Web Editor](/editor) - an online editor for quick previewing of songs
-- [SongPro Ruby Gem](https://github.com/spilth/song_pro)
+- [SongPro Ruby Gem](https://github.com/spilth/song_pro) - A Ruby Gem for parsing SongPro files and generating HTML from them
