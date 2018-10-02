@@ -4,9 +4,9 @@
   "description": "[Middleman](https://middlemanapp.com/) web site for providing the lyrics and chords to songs using the [ChordPro](https://www.chordpro.org/) format.",
   "main": "index.js",
   "dependencies": {
-    "lodash": "^4.17.11",
     "react": "^16.5.0",
-    "react-dom": "^16.5.0"
+    "react-dom": "^16.5.0",
+    "songpro-editor-component": "1.0.0"
   },
   "devDependencies": {
     "babel-core": "^6.26.3",
