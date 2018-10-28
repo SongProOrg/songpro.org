@@ -91,4 +91,5 @@ Any line starting with `|` is considered to be tablature. For example:
 ## Tools
 
 - [Web Editor](/editor) - an online editor for quick previewing of songs
-- [SongPro Ruby Gem](https://github.com/spilth/song_pro) - A Ruby Gem for parsing SongPro files and generating HTML from them
+- [SongPro Ruby Gem](https://github.com/spilth/songpro-ruby) - A Ruby Gem for parsing SongPro files
+- [SongPro Javascript Package](https://github.com/spilth/songpro-js) - A Javascript package for parsing Songpro files
