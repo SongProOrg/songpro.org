@@ -11,6 +11,7 @@ Here's a partial example of a song in the SongPro format:
 ```
 @title=Escape Capsule
 @artist=Brian Kelly
+!bandcamp=https://spilth.bandcamp.com/track/escape-capsule
 
 # Verse 1
 
@@ -22,7 +23,7 @@ You'll be [Asus4]safe in [A7]here
 # Chorus 1
 
 [G] I'm a [D]rocket [F#]made for your pro-[Bm]tection
-You're [G]safe with me, un-[A]til you leave
+You're [G]safe with me, un-[A]til you leavez
 ```
 
 When converted into HTML it looks like this:
@@ -54,6 +55,16 @@ You can specify the following song attributes:
 
 They can be placed anywhere in the song but it's recommended to put them at the top of your file.
  The values are text that are displayed in the rendered output.
+
+### Custom Attributes
+
+Custom attributes can be added the format:
+
+```
+!custom_attribute=value
+```
+
+A custom attribute can be anything. These are mainly used by other apps that want to store additional attributes beyond the core set or are that specific to the app.
 
 ### Sections
 
