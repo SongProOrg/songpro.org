@@ -23,16 +23,24 @@ You'll be [Asus4]safe in [A7]here
 # Chorus 1
 
 [G] I'm a [D]rocket [F#]made for your pro-[Bm]tection
-You're [G]safe with me, un-[A]til you leavez
+You're [G]safe with me, un-[A]til you leave
+
+# Solo
+
+| [Em] | [D] | [Em] | [D] |
+| [Em] | [D] | [Em] | [F#] |
+| [B] | [B] | [Bm] | [Bm] |
 ```
 
 When converted into HTML it looks like this:
 
 <img src="/images/preview.png" class="img-fluid img-thumbnail" />
 
+Note: Chord diagrams are provided by the [chord_diagrams gem](https://github.com/spilth/chord_diagrams)
+
 ## SongPro Format
 
-A SongPro file can contain Attributes, Sections, Chords, Lyrics and Tablature.
+A SongPro file can contain Attributes, Custom Attributes, Sections, Lyrics & Chords, Tablature and Measures.
 
 ### Attributes
 
@@ -93,10 +101,18 @@ You'll be [Asus4]safe in [A7]here
 
 ### Tablature
 
-Any line starting with `|` is considered to be tablature. For example:
+Any line starting with `|-` is considered to be tablature. For example:
 
 ```
 |-8--10--12--10--8-|
+```
+
+### Measures
+
+When you want to show where chord changes are for an instrumental section, start a line with `| ` and use another `| ` whenever a new measure starts.
+
+```
+| [G] | [D] | [F#] | [Bm] [D/A] |
 ```
 
 ## Tools
@@ -104,4 +120,5 @@ Any line starting with `|` is considered to be tablature. For example:
 - [Web Editor](/editor) - an online editor for quick previewing of songs
 - [SongPro Ruby Gem](https://github.com/SongProOrg/songpro-ruby) - A Ruby Gem for parsing SongPro files
 - [SongPro Javascript Package](https://github.com/SongProOrg/songpro-js) - A Javascript package for parsing Songpro files
+- [Chord Diagrams Ruby Gem](https://github.com/spilth/chord_diagrams)
 
