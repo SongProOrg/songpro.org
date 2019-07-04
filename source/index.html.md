@@ -72,7 +72,7 @@ Custom attributes can be added the format:
 !custom_attribute=value
 ```
 
-A custom attribute can be anything. These are mainly used by other apps that want to store additional attributes beyond the core set or are that specific to the app.
+A custom attribute can be anything. These are mainly used by other apps that want to store additional attributes beyond the core set or are specific to the app.
 
 ### Sections
 
@@ -113,6 +113,14 @@ When you want to show where chord changes are for an instrumental section, start
 
 ```
 | [G] | [D] | [F#] | [Bm] [D/A] |
+```
+
+### Comments
+
+You can include comments throughout the song by prefixing them with `> `. These can be used to provide performance notes/tips to players.
+
+```
+> Whistle the verse melody over these chords
 ```
 
 ## Tools
