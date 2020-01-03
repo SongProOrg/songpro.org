@@ -11,8 +11,3 @@ task :build do
   system 'bundle exec middleman build'
 end
 
-desc 'Deploy site to Amazon S3'
-task deploy: [:build] do
-  system 'bundle exec middleman s3_sync'
-end
-
