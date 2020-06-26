@@ -123,10 +123,14 @@ You can include comments throughout the song by prefixing them with `> `. These 
 > Whistle the verse melody over these chords
 ```
 
+## Libraries
+
+- [SongPro Java](https://github.com/SongProOrg/songpro-java) - A Javas library for parsing Songpro files
+- [SongPro Javascript](https://github.com/SongProOrg/songpro-js) - A Javascript package for parsing Songpro files
+- [SongPro Ruby](https://github.com/SongProOrg/songpro-ruby) - A Ruby Gem for parsing SongPro files
+
 ## Tools
 
 - [Web Editor](/editor) - an online editor for quick previewing of songs
-- [SongPro Ruby Gem](https://github.com/SongProOrg/songpro-ruby) - A Ruby Gem for parsing SongPro files
-- [SongPro Javascript Package](https://github.com/SongProOrg/songpro-js) - A Javascript package for parsing Songpro files
-- [Chord Diagrams Ruby Gem](https://github.com/spilth/chord_diagrams)
+- [Chord Diagrams Ruby Gem](https://github.com/spilth/chord_diagrams) - Provides chord diagrams as SVGs
 
