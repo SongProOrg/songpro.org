@@ -5,4 +5,3 @@ gem 'middleman-autoprefixer', '~> 2.7'
 gem 'middleman-syntax'
 gem 'redcarpet'
 gem 'bundler-audit'
-
