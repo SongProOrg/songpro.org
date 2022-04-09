@@ -6,6 +6,13 @@ div.highlight {
   margin-bottom: 8px;
 }
 
+pre {
+  background: #eee;
+  padding: 4px;
+  border-radius: 4px;
+  border: 1px solid #ccc;
+}
+
 .app {
   display: grid;
   grid-template-columns: 50% 50%;
@@ -28,59 +35,49 @@ div.highlight {
   overflow: scroll;
 }
 
-// SONGPRO STYLES
+.section {
+  display: flex;
+  flex-direction: row;
+  margin-bottom: 1.5em;
+}
 
-// h1.title {
-  // text-align: center;
-// }
+.section .name {
+  width: 12%;
+  font-family: "Times New Roman", serif;
+  font-weight: bold;
+  font-size: 1.2rem;
+  font-style: italic;
+}
 
-// h2.artist {
-  // text-align: center;
-// }
+.line {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: flex-end;
+}
 
- .section {
-   display: flex;
-   flex-direction: row;
-   margin-bottom: 1.5em;
- }
+.tablature {
+  font-family: monospace;
+  font-size: 1.3rem;
+  line-height: 1rem;
+  overflow: visible;
+  white-space: nowrap;
+}
 
- .section .name {
-   width: 12%;
-   font-family: "Times New Roman", serif;
-   font-weight: bold;
-   font-size: 1.2rem;
-   font-style: italic;
- }
+.chord,
+.lyric {
+  text-wrap: avoid;
+  margin-right: 0.4em;
+}
 
- .line {
-   display: flex;
-   flex-wrap: wrap;
-   align-items: flex-end;
- }
+.chord {
+  min-height: 1.4em;
+  font-weight: bold;
+  font-size: 1.1rem;
+  margin-bottom: -0.2em;
+}
 
- .tablature {
-   font-family: monospace;
-   font-size: 1.3rem;
-   line-height: 1.0rem;
-   overflow: visible;
-   white-space: nowrap;
- }
-
- .chord, .lyric {
-   text-wrap: avoid;
-   margin-right: 0.4em;
- }
-
- .chord {
-   min-height: 1.4em;
-   font-weight: bold;
-   font-size: 1.1rem;
-   margin-bottom: -0.2em;
- }
-
- .lyric {
-   min-height: 1.5em;
-   font-family: "Times New Roman", serif;
-   font-size: 1.4rem;
- }
-
+.lyric {
+  min-height: 1.5em;
+  font-family: "Times New Roman", serif;
+  font-size: 1.4rem;
+}
