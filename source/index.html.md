@@ -134,3 +134,4 @@ You can include comments throughout the song by prefixing them with `> `. These 
 ## Related Tools
 
 - [Chord Diagrams Ruby Gem](https://github.com/spilth/chord_diagrams) - Provides chord diagrams as SVGs
+- [SongiApp](https://songi.app/) - Offline song database browser (many songs in SongPro format)
