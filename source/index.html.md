@@ -133,6 +133,5 @@ You can include comments throughout the song by prefixing them with `> `. These 
 
 ## Related Tools
 
-- [Songbooks](https://songbooks.songpro.org) - Turn collections of SongPro songs into guitar & ukulele song books that be can viewed online and downloaded as PDFs
 - [Chord Diagrams Ruby Gem](https://github.com/spilth/chord_diagrams) - Provides chord diagrams as SVGs
 - [Zpevnikator.git](https://zpevnikator.github.io/) - Offline song database browser (many songs in SongPro format)
